@@ -104,7 +104,7 @@
                         <div class="entry" style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[0].image }}');">
                             
                             <div class="entry__content">
-                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[0].categories[0] }}/">{{ site.posts[0].categories|join: ", "  }}</a></span>
+                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[0].categories[0] | slugify }}/">{{ site.posts[0].categories|join: ", "  }}</a></span>
                                 
                                 <h1><a href="{{ base_path }}{{ site.posts[0].url }}" title="">{{ site.posts[0].title }}</a></h1>
                                 
@@ -130,7 +130,7 @@
                         <div class="entry" style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[i].image }}');">
                             
                             <div class="entry__content">
-                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[i].categories[0] }}/">{{ site.posts[i].categories|join: ", "  }}</a></span>
+                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[i].categories[0] | slugify }}/">{{ site.posts[i].categories|join: ", "  }}</a></span>
                                 
                                 <h1><a href="{{ base_path }}{{ site.posts[i].url }}" title="">{{ site.posts[i].title }}</a></h1>
                                 
