@@ -1,0 +1,85 @@
+---
+layout: default
+---
+{% include base_path %}
+<section class="s-content s-content--narrow s-content--no-padding-bottom">
+    
+    <article class="row format-standard">
+        
+        <div class="s-content__header col-full">
+            <h1 class="s-content__header-title">
+                {{ page.title }}
+            </h1>
+            <ul class="s-content__header-meta">
+                <li class="date">
+                    {% capture post_month %}{{ page.date|date:"%-m" }}{% endcapture %}
+                    {{page.date | date: "%d de" }}
+                    {% include month.md m=post_month %}
+                    {{ page.date | date: " de %Y" }}
+                </li>
+                <li class="cat">
+                    Em
+                    {% for cat in page.categories %}
+                    <a href="/category/{{ cat | slugify }}">{{ cat }}</a> 
+                    {% endfor %}                                                
+                </li>
+                {% if page.authors.size > 0 %}
+                <li class="cat">
+                    Por
+                    {% for author in page.authors %}
+                    <a href="#">{{ author }}</a> 
+                    {% endfor %}                                                
+                </li>
+                {% endif %}
+            </ul>
+        </div> <!-- end s-content__header -->
+        
+        {% if page.image %}
+        <div class="s-content__media col-full">
+            <div class="s-content__post-thumb">
+                <img src="{{ base_path }}{{ page.image }}" 
+                sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+            </div>
+        </div> <!-- end s-content__media -->
+        {% endif %}
+        
+        <div class="col-full s-content__main">
+            
+            {{ content }}
+            
+            {% if page.tags.size > 0 %}
+            <p class="s-content__tags">
+                <span>Tags</span>
+                
+                <span class="s-content__tag-list">
+                    {% for tag in page.tags %}
+                    <a href="/tag/{{ tag | slugify }}">{{ tag }}</a> 
+                    {% endfor %}                      
+                </span>
+            </p> <!-- end s-content__tags -->                                                        
+            {% endif %}
+            
+            <div class="fb-like" data-href="{{ base_path }}{{ page.url }}" data-width="" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            <div class="fb-quote"></div>
+            
+        </div> <!-- end s-content__main -->
+        
+    </article>
+    
+    
+    <div class="comments-wrap">
+        
+        <div id="comments" class="row">
+            <div class="col-full">
+                
+                <div class="fb-comments" data-href="{{ base_path }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+                
+            </div> <!-- end col-full -->
+            
+        </div> <!-- end row comments -->
+    </div> <!-- end comments-wrap -->
+    
+</section> <!-- s-content -->
+
+
+

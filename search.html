@@ -1,0 +1,46 @@
+---
+layout: default
+title: 42 | Busca
+---
+{% include base_path %}¨
+
+<section class="s-content s-content--narrow s-content--no-padding-bottom">
+  
+  <article class="row format-standard">
+    
+    <div class="s-content__header col-full">
+      <h1 class="s-content__header-title">Busca</h1>
+    </div>
+    
+    <div class="col-full s-content__main">
+      <!-- Html Elements for Search -->
+      <div id="search-container" class="search">        
+        <form>
+          <label for="search-input">Termo da busca</label>
+          <input type="search" id="search-input" placeholder="digite os termos da busca..." class="full-width">
+        </form>
+        <ul id="results-container"></ul>
+      </div>
+    </div>        
+    
+    <script src="{{ base_path }}/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+    
+    <!-- Configuration -->
+    <script>
+      var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ base_path }}/search.json',
+        searchResultTemplate: '<div class="col-twelve tab-full masonry"><h1 class="entry__title"><a href="{url}">{title}</a> <span>- {date}</span></h1></div>',
+      })
+      window.onload = function() {
+        var url = new URL(window.location)
+        $('#termo').html(url.searchParams.get('q'));
+        $('#search-input').val(url.searchParams.get('q'));
+        sjs.search(url.searchParams.get('q'))
+      }
+    </script>
+    
+  </article>
+  
+</section>
