@@ -1,20 +1,3 @@
-{% assign rawcats = "" %}
-{% for post in site.posts %}
-{% assign ccats = post.categories | join:'|' | append:'|' %}
-{% assign rawcats = rawcats | append:ccats %}
-{% endfor %}
-{% assign rawcats = rawcats | split:'|' | sort %}
-{% assign cats = "" %}
-{% for cat in rawcats %}
-{% if cat != "" %}
-{% if cats == "" %}
-{% assign cats = cat | split:'|' %}
-{% endif %}
-{% unless cats contains cat %}
-{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
 {% include base_path %}
 
 <!DOCTYPE html>
@@ -50,7 +33,7 @@
                         <img src="{{ base_path }}/images/logo.svg" alt="Homepage">
                     </a>
                 </div> 
-                                
+                
                 <a class="header__search-trigger" href="#0"></a>
                 
                 <div class="header__search">
@@ -79,9 +62,9 @@
                         <li class="has-children">
                             <a href="#0" title="">Categorias</a>
                             <ul class="sub-menu">
-                                {% for cat in cats %}
-                                <li><a href="{{ base_path }}/category/{{ cat | slugify }}/">{{ cat }}</a></li>
-                                {% endfor %}                            
+                                <li><a href="{{ base_path }}/categoria/automacao/">Automação</a></li>
+                                <li><a href="{{ base_path }}/categoria/manutencao/">Manutenção</a></li>
+                                <li><a href="{{ base_path }}/categoria/virtualizacao/">Virtualização</a></li>                    
                             </ul>
                         </li>                                                
                         <li><a href="{{ base_path }}/sobre.html" title="">Sobre</a></li>                        
