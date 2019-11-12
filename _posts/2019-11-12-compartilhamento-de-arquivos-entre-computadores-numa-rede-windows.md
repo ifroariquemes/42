@@ -9,3 +9,4 @@ description: 'Tutorial de como compartilhar seus arquivos em uma rede utilizando
 image: using-computer.jpg
 ---
 
+As vezes é necessário compartilhar algum arquivo importante entre dois ou mais computadores. Pode acontecer dos computadores não estarem conectados à intenet ou não terem alguma conexão além da rede local. Felizmente o Windows tem uma funcionalidade que possibilita o compartilhamento de arquivos em uma rede local.
