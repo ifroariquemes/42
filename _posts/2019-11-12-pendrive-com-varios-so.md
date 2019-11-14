@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "Pendrive bootável com vários sistemas"
+title: "Pendrive bootável com vários Sistemas Operacionais"
 categories: ['Manutenção']
 authors: ['Raphael Alves Dias'] 
-tags: [Pendrive bootável, Vários ISOS]
-description: 'Como criar um pendrive bootável com vários sistemas operacionais'
+tags: ['Pendrive bootável']
+description: 'Aprenda a criar o seu próprio pendrive com vários sistemas embarcados'
 image: flash-memory-1306886_960_720.jpg
 ---
 
 ### Entendendo um pendrive bootável
 Boa parte dos notebooks atuais não trazem os leitores de CD/DVD. Isso favoreceu o desenvolvimento de aplicativos que permitam criar pendrives de boot para a instalação de algum Sistema Operacional.
 
----
 
 ### Yumi Multiboot
 
@@ -21,7 +20,6 @@ Download: [Yumi Multiboot.](https://www.pendrivelinux.com/yumi-multiboot-usb-cre
 
 Após fazer o download do aplicativo, realize o download do arquivo ISO dos sistemas opeacionais desejados.
 
----
 
 ### Criando um pendrive bootável
 
