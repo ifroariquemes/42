@@ -3,7 +3,7 @@ layout: post
 title: "Restauração de Sistemas"
 categories: ['Manutenção']
 authors: ['Quesia Martins'] 
-tags: []
+tags: ['restauração', 'windows']
 description: 'Para que servem os pontos de restauração, e como criá-los.'
 image: hacking.jpg
 ---
@@ -12,7 +12,7 @@ A Restauração de Sistemas, é uma ferramenta que permite a criação de um pon
 	
 As senhas de usuário também retornarão ao antigo estágio, portanto, caso tenha trocado de senha e não se recorde da mesma, é recomendado que não realize a restauração. Para evitar estresse, é importante fazer cópias e uploads dos arquivos com maior importância, caso eles sejam excluídos. A ação é irreversível. 
 
-Passo 1: Criar o ponto de restauração.
+## Passo 1: Criar o ponto de restauração.
 
 **a)** Entre em Painel de Controle > Sistema e Segurança > Sistema > Proteção de Sistema.
 ![kkikiki](/42/images/post/1Q.png)
@@ -29,7 +29,7 @@ Passo 1: Criar o ponto de restauração.
 **e)** No espaço em branco, digite um nome para a identificação do ponto de restauração. Logo após clique em “criar”.
 ![kkikiki](/42/images/post/5Q.png)
 
-Passo 2: Utilitário.
+## Passo 2: Utilitário.
 
 **a)** Ainda na janela de “Propriedades do sistema”, selecione a opção ‘Restauração do sistema’.
 ![kkikiki](/42/images/post/6Q.png)
@@ -40,7 +40,7 @@ Passo 2: Utilitário.
 **c)** Na janela “Restauração de Sistema” estão listados todos os pontos de restaurção criados.
 ![kkikiki](/42/images/post/8Q.png)
 
-Passo 3: Restaurar o computador usando o ponto criado na primeira etapa.
+## Passo 3: Restaurar o computador usando o ponto criado na primeira etapa.
 
 **a)** Selecione o ponto de restauraçaõ desejado, e clique em “Avançar >”.
 ![kkikiki](/42/images/post/9Q.png)
