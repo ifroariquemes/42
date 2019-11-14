@@ -22,7 +22,7 @@ layout: default
             <article class="masonry__brick entry format-standard" data-aos="fade-up">
                 
                 <div class="entry__thumb">
-                    <a href="{{ post.url }}" class="entry__thumb-link">
+                    <a href="{{ base_path }}{{ post.url }}" class="entry__thumb-link">
                         <img src="{{ base_path }}/images/thumbs/{{ post.image }}" alt="{{ post.title }}">
                     </a>
                 </div>
@@ -31,7 +31,7 @@ layout: default
                     <div class="entry__header">
                         
                         <div class="entry__date">
-                            <a href="{{ post.url }}">
+                            <a href="{{ base_path }}{{ post.url }}">
                                 {% capture post_month %}{{ post.date|date:"%-m" }}{% endcapture %}
                                 {{ post.date | date: "%d de" }}
                                 {% include month.md m=post_month %}
