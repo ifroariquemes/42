@@ -3,14 +3,14 @@ layout: post
 title: "Como desligar o computador com hora específica"
 categories: ['Manutenção']
 authors: ['Jhenifer Farias Pereira'] 
-tags: []
-description: 'Como desligar o computador com windows 10 em uma hora específica '
+tags: ['windows', 'tutorial']
+description: 'Como desligar o computador com Windows 10 em uma hora específica.'
 image: fotop.png
 ---
 
-**Descriçao:** Essa tarefa tem como objetivo o controle do horário que você utiliza seu computador, pois sabendo que seu computador vai desligar em determinado horário, você irá fazer suas tarefas antes do horário que ele irá desligar, e terá pleno controle do horário de uso do computador.
+**Descrição:** Essa tarefa tem como objetivo o controle do horário que você utiliza seu computador, pois sabendo que seu computador vai desligar em determinado horário, você irá fazer suas tarefas antes do horário que ele irá desligar, e terá pleno controle do horário de uso do computador.
 
-Neste passo á passo, irei ensinar como desligar o computador diariamente no mesmo horário, para que a pessoa tenha esse controle citado acima, porém, tem opções de desligar apenas em um dia mensalmente ou até em determinado dia anualmente e várias outras maneiras. Na etapa 5 mostra as opções, então você pode escolher o que deseja e seguir os outros passos da mesma forma.
+Neste passo a passo, irei ensinar como desligar o computador diariamente no mesmo horário, para que a pessoa tenha esse controle citado acima, porém, tem opções de desligar apenas em um dia mensalmente ou até em determinado dia anualmente e várias outras maneiras. Na etapa 5 mostra as opções, então você pode escolher o que deseja e seguir os outros passos da mesma forma.
 
 **Siga os passos a seguir:**
 
@@ -42,7 +42,7 @@ Neste passo á passo, irei ensinar como desligar o computador diariamente no mes
 
 ![iniciarprograma](/42/images/post/image7.png)
 
-**8º Passo:** No campo “programa” digite “shutdown” e no campo “adicione argumentos” digite “-s -t 0”, clique em avançar: 
+**8º Passo:** No campo “programa” digite ``shutdown`` e no campo “adicione argumentos” digite ``-s -t 0``, clique em avançar: 
 
 ![shutdown](/42/images/post/image8.png)
 
