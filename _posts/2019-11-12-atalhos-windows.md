@@ -177,5 +177,4 @@ Estes atalhos ajudam o usuário a navegar pelos menus mais utilizados dos navega
 Para fim aos que tenham chegado até aqui e observado a enorme lista de etalhos e observado a semelhanças que tem entre eles, e visto o quanto eles podem nos ajudar no dia a dia, portanto a Microsft como está sempre criando novas funcionalidades para cada execução, provavelmente teremos que atualizar esta lista em pouco tempo.
 
 Não se afobe por olhar e não conseguir decorar todos, até porque são muitos os atalhos, conforme o uso deles com regularidade você perceberá que os já utilizam sem ao mesmo consultar sua combinação, e sem sequer perceber que isso poupou minutos ão longo do dia.
-
 Uma dica é que salve este blog na aba de favoritos para consulta-lá constantemente.
