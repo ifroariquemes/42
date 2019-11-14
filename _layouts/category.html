@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include base_path %}
 
 <section class="s-content" id="posts">    
     
@@ -22,8 +23,7 @@ layout: default
                 
                 <div class="entry__thumb">
                     <a href="{{ post.url }}" class="entry__thumb-link">
-                        <img src="{{ post.image }}" 
-                        srcset="{{ post.image }} 1x, {{ post.image }} 2x" alt="{{ post.title }}">
+                        <img src="{{ base_path }}/images/thumbs/{{ post.image }}" alt="{{ post.title }}">
                     </a>
                 </div>
                 
@@ -45,13 +45,6 @@ layout: default
                         <p>
                             {{ post.description }}
                         </p>
-                    </div>
-                    <div class="entry__meta">
-                        <span class="entry__meta-links">
-                            {% for cat in post.categories %}
-                            <a href="/category/{{ cat | slugify }}/">{{ cat }}</a> 
-                            {% endfor %}                            
-                        </span>
                     </div>
                 </div>
                 
