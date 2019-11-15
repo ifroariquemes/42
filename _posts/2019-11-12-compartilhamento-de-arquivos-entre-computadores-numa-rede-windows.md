@@ -18,7 +18,7 @@ As vezes é necessário compartilhar algum arquivo importante entre dois ou mais
 1. Clique com o botão direito no ícone de conexão e clique em "Abrir configurações de rede e internet".
 ![Imagem1](/42/images/post/compartilhar-arquivos-windows(1).png)
 
-2. Na janela de confgurações clique em "Opções de compartilhamento"
+2. Se você estiver em uma rede doméstica ou do trabalho, verifique se ela está marcada como privada, se não estiver vá em "Alterar as propriedades de conexão" e marque "Particular", depois volte até a aba "Status" em "Rede e Internet" e clique em "Opções de compartilahmento"
 ![Imagem2](/42/images/post/compartilhar-arquivos-windows(2).png)
 
 3. Clique em "Particular", em "Descoberta de rede" clique em "Ativar descoberta de rede" e em "Copartilhamento de arquivos e impressora" clique em "Ativar compartilhamento de arquivo e impressora".
