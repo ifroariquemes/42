@@ -33,7 +33,6 @@ As vezes é necessário compartilhar algum arquivo importante entre dois ou mais
 
 7. Clique em "Salvar alterações".
 
-
 ## Compartilhe uma pasta
 
 Agora que o compartilhamento de arquivos está ativado você poderá compartilhar suas pastas na rede.
@@ -44,6 +43,12 @@ Agora que o compartilhamento de arquivos está ativado você poderá compartilha
 2. Em "Escolha as pessoas com as quais irá compartilhar" selecione "Todos" e clique em "Adicionar".
 ![Imagem6](/42/images/post/compartilhar-arquivos-windows(6).png)
 
-3. Em nível de permissão você pode alterar as permissões dos outros usuários quanto a pasta que você compartilhou. "Leitura" para dar permissão poder apenas ver a pasta ou "Leitura/Gravação" para permitir que as outras pessoas modifiquem ou alterem o conteúdo da sua pasta.
+3. Em nível de permissão você pode alterar as permissões dos outros usuários quanto a pasta que você compartilhou. "Leitura" para dar permissão poder apenas ver a pasta ou "Leitura/Gravação" para permitir que as outras pessoas modifiquem o conteúdo da sua pasta.
 ![Imagem7](/42/images/post/compartilhar-arquivos-windows(7).png)
+
+4. Clique em "Compartilhar".
+
+5. Você pode copiar o link da sua pasta compartilhada para que as outras pessoas possam alterar ou adicionar arquivos em sua pasta.
 ![Imagem8](/42/images/post/compartilhar-arquivos-windows(8).png)
+
+Pronto! Para acessar a pasta compartilhada abra o Windows Explorer e cole o link na barra de endereço ou vá até "Rede" no Windows Explorer e procure pela pasta compartilhada.
