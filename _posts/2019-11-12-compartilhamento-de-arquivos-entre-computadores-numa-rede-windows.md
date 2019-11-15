@@ -24,7 +24,6 @@ As vezes é necessário compartilhar algum arquivo importante entre dois ou mais
 3. Clique em "Opções de compartilhamento".
 
 4. Se estiver em uma rede privada selecione "Particular" senão selecione "Convidado ou Público".
-
 5. Em "Descoberta de rede" clique em "Ativar descoberta de rede" e em "Compartilhamento de arquivos e impressora" clique em "Ativar compartilhamento de arquivo e impressora".
 ![Imagem3](/42/images/post/compartilhar-arquivos-windows(3).png)
 
@@ -43,7 +42,7 @@ Agora que o compartilhamento de arquivos está ativado você poderá compartilha
 2. Em "Escolha as pessoas com as quais irá compartilhar" selecione "Todos" e clique em "Adicionar".
 ![Imagem6](/42/images/post/compartilhar-arquivos-windows(6).png)
 
-3. Em nível de permissão você pode alterar as permissões dos outros usuários quanto a pasta que você compartilhou. "Leitura" para dar permissão poder apenas ver a pasta ou "Leitura/Gravação" para permitir que as outras pessoas modifiquem o conteúdo da sua pasta.
+3. Em nível de permissão você pode alterar as permissões dos outros usuários quanto a pasta que você compartilhou. "Leitura" para dar permissão para poder apenas ver a pasta ou "Leitura/Gravação" para permitir que as outras pessoas modifiquem o conteúdo da sua pasta.
 ![Imagem7](/42/images/post/compartilhar-arquivos-windows(7).png)
 
 4. Clique em "Compartilhar".
