@@ -18,14 +18,21 @@ As vezes é necessário compartilhar algum arquivo importante entre dois ou mais
 1. Clique com o botão direito no ícone de conexão e clique em "Abrir configurações de rede e internet".
 ![Imagem1](/42/images/post/compartilhar-arquivos-windows(1).png)
 
-2. Se você estiver em uma rede doméstica ou do trabalho, verifique se ela está marcada como privada, se não estiver vá em "Alterar as propriedades de conexão" e marque "Particular", depois volte até a aba "Status" em "Rede e Internet" e clique em "Opções de compartilahmento"
+2. Se você estiver em uma rede doméstica ou do trabalho, verifique se ela está marcada como privada, se não estiver vá em "Alterar as propriedades de conexão" e marque "Particular", depois volte até a aba "Status" em "Rede e Internet".
 ![Imagem2](/42/images/post/compartilhar-arquivos-windows(2).png)
 
-3. Clique em "Particular", em "Descoberta de rede" clique em "Ativar descoberta de rede" e em "Copartilhamento de arquivos e impressora" clique em "Ativar compartilhamento de arquivo e impressora".
+3. Clique em "Opções de compartilhamento".
+
+4. Se estiver em uma rede privada selecione "Particular" senão selecione "Convidado ou Público".
+
+5. Em "Descoberta de rede" clique em "Ativar descoberta de rede" e em "Compartilhamento de arquivos e impressora" clique em "Ativar compartilhamento de arquivo e impressora".
 ![Imagem3](/42/images/post/compartilhar-arquivos-windows(3).png)
 
-4. Clique em "Salvar alterações".
+6. Por padrão o Windows pede uma senha quando alguém tenta entrar em um pasta compartilhada. A senha pode ser desativada indo em "Todas as Redes" e selecionando "Desativar compartilhamento protegido por senha".
 ![Imagem4](/42/images/post/compartilhar-arquivos-windows(4).png)
+
+7. Clique em "Salvar alterações".
+
 
 ## Compartilhe uma pasta
 
