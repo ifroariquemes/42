@@ -1,0 +1,19 @@
+{
+  "name": "ifro-42",
+  "version": "1.0.0",
+  "description": "Site com todas as respostas do universo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifroariquemes/42.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifroariquemes/42/issues"
+  },
+  "homepage": "https://github.com/ifroariquemes/42#readme"
+}

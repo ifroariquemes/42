@@ -30,10 +30,7 @@ Primeiro é necessário esclarecer algumas normas que foram adotadas para tornar
 - Combinações que precisam que uma tecla seja pressionada na sequência de outra ou de uma combinação utilizarão > (Por exemplo, CTRL > T);
 - Para os atalhos e suas descrições será estruturado desta maneira:
 
-Atalho | Descrição 
------- | ------
-
-### Dito as instruções, vamos para os atalhos:
+### Ditas as instruções, vamos para os atalhos:
 	
 **CTRL + S** | para salvar o processo que está realizando
 **CTRL + B** | para salvar um documento no Word, PowerPoint ou Excel enquanto
@@ -53,7 +50,6 @@ Atalho | Descrição
 
 ##### Estes são atalhos que funcionam em qualquer versão do Windows
 
-
 **WIN + D**|	Exibe a Área de Trabalho instantaneamente
 **WIN + M**|	Minimiza todas as janelas ativas
 **WIN + SHIFT + M** | Maximiza todas as janelas que antes estavam minimizadas
@@ -62,9 +58,6 @@ Atalho | Descrição
 **WIN + F1**| Exibe a janela de ajuda do Windows 8
 **WIN + R**| Abre a janela Executar
 **WIN + U**| Abre a Central de Facilidade de Acesso
-
-##### Estes são os atalhos principais que envolven WIN.
-
 
 #### Selecionando texto
 Uma prática que ajuda qualquer um a aumentar a velocidade de produção de texto.
