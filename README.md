@@ -6,7 +6,7 @@ Site com todas as respostas do universo
 Se você faz parte do time, siga as instruções abaixo normalmente. Se você não faz parte, faça um _fork_ do projeto e trabalhe a partir do seu próprio repositório, depois solicite um Pull Request para este aqui.
 
 0. [Instale o Git](#instale-o-git)
-1. [Instale o Node.JS](#instale-o-node-js)
+1. [Instale o Node.JS](#instale-o-nodejs)
 2. [Instale o Docker](#instale-o-docker)
 3. [Clone este repositório](#clone-este-repositorio)
 4. [Crie sua branch](#crie-sua-branch)
