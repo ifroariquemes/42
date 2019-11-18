@@ -49,8 +49,16 @@ $ git checkout um-nome-qualquer
 
 ### Inicie o servidor
 
+Se você usa Docker, inicie o servidor com:
+
 ```bash
 $ npm run start
+```
+
+Se você instalou Jekyll diretamente em seu computador, rode o servidor com:
+
+```bash
+$ jekyll serve
 ```
 
 ### Utilize um editor de texto
