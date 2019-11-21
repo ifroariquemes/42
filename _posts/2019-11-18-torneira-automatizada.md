@@ -5,7 +5,7 @@ categories: ['Automação']
 authors: ['Karina Gois Almeida'] 
 tags: ['consumo','automatizada','torneira']
 description: 'Projeto para economia de água com uma torneira automatizada'
-image: agua.jpg
+image: agua011.jpg
 ---
 
 Muitas coisas influenciam no consumo de água. Por exemplo lavar uma louça ou ate mesmo a mão, quando vai lavar louça exige um alto consumo de água assim gerando um 
