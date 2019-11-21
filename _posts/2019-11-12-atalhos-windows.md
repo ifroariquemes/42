@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Atalhos no Windows"
-date: 2019-11-12 16:17
-categories: ['Dicas']
+categories: ['Manutenção']
 authors: ['Luiz Alceu S. Vaz'] 
 tags: ['Atalhos','Windows','Dicas']
 description: 'Este é um guia de atalhos do teclado do Windows, para auxiliar na aceleração do manuseio no computador.'
-image: computer-1869236_1920.jpg
+image: illuminated-keyboard-2686774_1920.jpg
 ---
 
 Olá meu caro, nesse post ensinarei alguns atalhos para facilitar o manuseio no dia a dia.
