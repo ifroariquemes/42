@@ -23,7 +23,7 @@ Assim, a antena transmite a informação, emitindo o sinal do circuito integrado
 
 Quem nunca sonhou em deixar sua casa igual a do homem de ferro? Ou pelo menos ter uma persiana que abre após um horário pré determinado, ou quem sabe programar sua cafeteira para fazer café assim que você acordar? Ou simplesmente abrir portas de maneira mais prática, apenas com a aproximação de um cartão, por exemplo. Isso é o que iremos ensinar a você hoje! 
 
-Um dos métodos mais simplificados para realizar tal projeto é a utilização de tags RFID, as quais irão substituir suas chaves e podem ser encontradas em formato de chaveiros, cartões e pulseiras. No “Projeto Arduino Controle de Acesso RFID” vamos detalhar passo a passo.
+Um dos métodos mais simplificados para realizar tal projeto é a utilização de tags RFID, as quais irão substituir suas chaves e podem ser encontradas em formato de chaveiros, cartões e pulseiras. 
 
 
 # Abra sua mente (e portas) com o RFID!
@@ -32,6 +32,15 @@ Bastante pensado em projetos de automação residencial com Arduino, o esquema p
 
 Como já dito antes, o sistema de comunicação para transferência de dados do sistema RFID utiliza ondas de rádio, nas quais cada tag emite uma sequência de números como um código exclusivo para cada chaveiro, cartão ou qual for o acessório como, por exemplo, o código do cartão {118, 157, 177, 171, 241} o qual veremos mais a frente na montagem física.
 
+## Produtos Utilizados no Projeto
+
+1. 1 Arduino UNO + Cabo USB AB;
+2. 1 Kit RC522 Leitor RFID;
+3. 1 Módulo Relé 1 Canal;
+4. 1 Display LCD 16×2;
+5. 1 Potenciômetro;
+6. 1 Fechadura Elétrica 12V;
+7. 1 Fonte de Alimentação 12V 1A.
 
 ## Montagem Física
 
