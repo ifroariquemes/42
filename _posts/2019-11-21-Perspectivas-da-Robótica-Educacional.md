@@ -14,26 +14,31 @@ aparelhos eletrônicos que humanos na terra. Consequentemente, os métodos de en
 a esse novo modelo de sociedade globalizada. Aparelhos como notebooks e quadros touch screen já estão presente em algumas
 escolas auxiliando professores e alunos em várias atividades escolares, no entanto, essa interação pode ir um pouco mais
 a fundo. Nesse sentido, existem instituições que utilizam da robótica para introduzir matérias de lógica, como matemática
-e física. Segundo Oliveira (2012), "outro benefício dos recursos tecnológicos é proporcionar o trabalho em equipe, assim
+e física. Segundo Oliveira (2012), 
+> outro benefício dos recursos tecnológicos é proporcionar o trabalho em equipe, assim
 promovendo a socialização na realização dos projetos em grupos, desta forma, permitindo rendimentos por meio da interação
-dos educandos e educador".
+dos educandos e educador
 
 ### Conceituação
 
-Mas a final, do que se trata a Robótica Educacional? De acordo com Santos (2012), "Robótica educacional ou robótica pedagógica
+Mas a final, do que se trata a Robótica Educacional? De acordo com Santos (2012), 
+
+> Robótica educacional ou robótica pedagógica
 são termos utilizados para caracterizar ambientes de aprendizagem que reúnem materiais de sucata ou kits de montagem compostos
 por peças diversas, motores e sensores controláveis por computador e softwares que permitam programar de alguma forma o funcionamento
 dos modelos montados. Aumentando o interesse e a criatividade dos alunos e integrando diversas disciplinas, a robótica educacional,
 ou robótica pedagógica, tem despertado a atenção de professores e alunos. Nesse tipo de atividade, o aluno vivencia na prática 
-através da construção de maquetes e robôs controlados por computador, conceitos estudados em sala de aula".
+através da construção de maquetes e robôs controlados por computador, conceitos estudados em sala de aula
 
 ### Desenvolvimento
 
 A robótica traz benefícios além da tecnologia e da ciência. Esse é um argumento que diversos professores da área utilizam,
 e isso aponta para um fato claro: a robótica estimula o raciocínio lógico, da criatividade e do trabalho em equipe. De acordo com
 um artigo encontrado no Blog "Tecnologia educacional", alguns especialistas da área expressão suas perspectivas a respeito do assunto, 
-nas palavras de Andrea Camiña, da Robolae Robótica Educacional, Tecnologia e Inovações, a robótica vai “desenvolver a criatividade, 
-ensinar a resolver problemas através de projetos e incentivar o trabalho em equipe e o compartilhamento de descobertas”.
+nas palavras de Andrea Camiña, da Robolae Robótica Educacional, Tecnologia e Inovações:
+
+> a robótica vai desenvolver a criatividade, 
+ensinar a resolver problemas através de projetos e incentivar o trabalho em equipe e o compartilhamento de descobertas
 
 Segundo Rosekel Schettino de Meirelles Maia, do Centro Educacional Casulo, “muitos alunos que não iam bem nas disciplinas
 “comuns” e passaram a se destacar na robótica tiveram um aumento significativo na autoestima e, consequentemente, melhoram
@@ -48,9 +53,11 @@ desde cedo e levam pra vida”.
 
 Rosekel complementa: “O ensino da Robótica é um trabalho rico e muito completo que pode mudar a vida de muitos alunos.
 Além disso, traz para a escola, de forma viva, a ciência, a tecnologia, a engenharia e a matemática”. Andrea tem uma visão
-ainda mais a longo prazo: “O mundo está mudando muito rápido. Todos os dias acordamos com novas tecnologias que surpreendem as
+ainda mais a longo prazo:
+
+>O mundo está mudando muito rápido. Todos os dias acordamos com novas tecnologias que surpreendem as
 pessoas […]. Quanto antes nossos alunos estiverem em contato saudável com essas tecnologias, mais fácil será assimilar essas mudanças
-e contribuir para a evolução humana”.
+e contribuir para a evolução humana
 
 ### Conclusão
 
