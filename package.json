@@ -4,7 +4,7 @@
   "description": "Site com todas as respostas do universo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "docker run --rm --volume=\"$PWD:/srv/jekyll\" -p 4000:4000 -it jekyll/jekyll jekyll serve"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,8 @@
   },
   "author": "",
   "license": "ISC",
+  "author": "Natanael Simoes",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/ifroariquemes/42/issues"
   },
