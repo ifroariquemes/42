@@ -54,7 +54,7 @@ void loop()
 !["Projeto tinkercad"](/42/images/post/foto.png)
 
 
-##Referências  
-[https://www.tinkercad.com/things/2bZ0meLgIDR-torneira-automatica]  
-[https://www.robocore.net/tutoriais/fazendo-uma-torneira-automatica-com-arduino]
+### Referências  
+[https://www.tinkercad.com/things/2bZ0meLgIDR-torneira-automatica](https://www.tinkercad.com/things/2bZ0meLgIDR-torneira-automatica)
+[https://www.robocore.net/tutoriais/fazendo-uma-torneira-automatica-com-arduino](https://www.robocore.net/tutoriais/fazendo-uma-torneira-automatica-com-arduino)
 
