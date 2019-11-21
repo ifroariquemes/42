@@ -5,7 +5,7 @@ categories: ['Automação']
 authors: ['Douglas Lopes Maltezo Saiter'] 
 tags: []
 description: 'Como a robótica pode ser inserida na da educação escolar e contribuir com o aprendizado dos alunos'
-image: /home/alunoifro/Downloads/imgroboticaescola.jpg
+image: imgroboticaescola.jpg
 ---
 ### Introdução
 
