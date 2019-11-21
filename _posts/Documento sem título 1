@@ -14,14 +14,14 @@ O diagnóstico de memória é uma ação fundamental para o bem estar de seu com
 
 Para esse processo usaremos um programa chamado **MemTest86**, pode ser obtido de forma gratuita no site oficial <https://www.memtest86.com/download.htm>,  nesse site você terá a opção de escolher duas versões de forma gratuita, V4 e V8. Para a escolha da versão deve se saber que V8 funcionará apenas se tiver inicialização com UEFI, para isso deve verificar o site oficial de do fabricante de sua placa mãe e verificar se há ou não esse recurso, caso o seu computador não tenha esse recurso baixe a versão antiga, a V4. Na iso haverá um manual sobre o MemTest86.
 
-### MenTest86
+### MemTest86
 
 ___
 
 O MemTest86 é um programa independente, não requer um sistema operacional para seu funcionamento, porém para seu funcionamento deve-se utilizar um hardware que possa ser usado como meio de boot, um disco ou pendrive, para isso você deve utilizar um sistema operacional, Windows, Linux ou Mac, para que você possa instalar o programa. Você deve inicializar o seu computador com o hardware que está sendo utilizado como meio de boot, para isso você deve trocar a ordem de boot de seu computador.
 
 * As versões têm métodos de interação diferentes, o V8 tem a interface  melhor e mais fácil para o trabalho em relação ao V4, porém ambos têm como padrão  inicializar com o teste de memória. O V8 mostra informações do seu computador, assim como o V4 porém em 
-repartições, o V8 não inicia já fazendo o teste, há opções relacionados ao teste, como escolher qual pente de memória fazer o teste, porém, ainda sim todas as informações contidas neste site, exceto questão de localização da tela, são referentes ao MenTest86 V8.
+repartições, o V8 não inicia já fazendo o teste, há opções relacionados ao teste, como escolher qual pente de memória fazer o teste, porém, ainda sim todas as informações contidas neste site, exceto questão de localização da tela, são referentes ao MemTest86 V8.
  
 
 ### Como Usar e Informações
@@ -69,15 +69,4 @@ Bem abaixo na interface há uma lista de comandos, como “esc” que sai do pro
 
 
 Os mais interessantes são o 3 que pode te avisar quando aparecer um erro e o 6 que mostra os canais que a placa-mãe possui.
-
-
-
-
-
-
-
-
-
-
-
 
