@@ -8,7 +8,6 @@ description: 'Como a automção pode evitar um elevado desperdício de água '
 image: agua.jpg
 ---
 
-
 Com sistemas  simples a economia de água pode ser promovida em todos os ambientes, a detecção prévia de vazamentos ou mau funcionamento de equipamentos que utilizam água é sempre uma medida importante para prevenir que haja desperdício independente de ser em uma residência, edificação ou condomínio.
 
 ### Além de reduzir o desperdício ajudar a reduzir os custos
