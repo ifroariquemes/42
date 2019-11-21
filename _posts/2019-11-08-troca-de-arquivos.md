@@ -6,7 +6,7 @@ categories: ['Virtualização']
 authors: ['Pedro Henrique'] 
 tags: []
 description: 'Como enviar arquivos de um dispositivo android para um computador com windows ligados a uma mesma rede wifi'
-image: images (1).jpeg
+image: CAPA.jpeg
 ---
 
   
