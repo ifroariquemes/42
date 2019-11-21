@@ -13,28 +13,28 @@ image: garagem.jpg
 
 O sensor ultrasonico verifica a distancia de uma pessoa até a porta ou portão, se essa distancia for igual a um determinado valor o servo motor é acionado fazendo com que a porta se abra e logo após liga o led, então espera-se um determinado tempo para que a pessoa possa entrar ou sair do ambiente e novamente é verificado a distancia, caso a distancia seja maior que o valor estipulado o servo motor é acionado novamente fechando a porta e o led (luz) apaga.
 
-# Descrição de cada componente:
+## Descrição de cada componente:
 
 
-## SERVO MOTOR
+### Servo motor
 
 ![Imagem do servo motor](/42/images/post/DESTAQUE.png)
 
 O servo motor ultiliza de  3 fios: um de cor preta, designado para o terra que deve ser ligado ao pino terra do arduino (GND). Um fio vermelho designado para a corrente que deve ser ligado ao pino 5 volts do arduino. E um fio amarelo designado aos dados que deve ser ligado ao pino digital 9 do arduino.
 
-## SENSOR ULTRASONICO
+### Sensor Ultrassônico
 
 ![Imagem do sensor ultrasônico](/42/images/post/imagem-de-destaque-60-1-696x418.png)
 
-O sensor ultrasonico é composto 4 pinos: VCC, Trig, Echo e  GND. O pino VCC deve ser ligado ao pino 5 volt do arduino. O pino Trig deve ser ligado ao pino digital 12 do arduino. O pino Echo deve ser ligado ao pino digital 13 do arduino. O pino GND deve ser ligado ao pino terra do arduino.
+O sensor ultrassônico é composto 4 pinos: VCC, Trig, Echo e  GND. O pino VCC deve ser ligado ao pino 5 volt do arduino. O pino Trig deve ser ligado ao pino digital 12 do arduino. O pino Echo deve ser ligado ao pino digital 13 do arduino. O pino GND deve ser ligado ao pino terra do arduino.
 
-## LED
+### LED
 
 ![Imagem do LED](/42/images/post/5mm_Red_LED.jpg)
 
 O led tem dois pinos onde um é maior que o outro. O pino maior, designado para a corrente é ligado a um resistor com o objetivo de regular a tensão que vem do pino digital 10 do arduino. O pino menor (terra) é ligado ao GND (terra) do arduino.
 
-# Código
+## Código
 
 ```c
 Servo servo_objeto;
