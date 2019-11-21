@@ -73,9 +73,10 @@ Fonte: Straub, Matheus. Usina Info (2017)
 O funcionamento deste programa é mais simples do que parece. O download do código estará logo abaixo, juntamente com o download das bibliotecas necessárias para o funcionamento do mesmo, copie e cole-os em seu navegador:
 
 **Download do Código:** https://is.gd/036x9i
+     Fonte: Straub, Matheus. Usina Info (2017)
 
 **Download da Biblioteca:** https://is.gd/J33nWU
-
+     Fonte: Straub, Matheus. Usina Info (2017)
 
 Finalizado o download, abra o código e aplique as bibliotecas para poder seguir pro próximo passo: 
 
