@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como enviar arquivos via Wi-Fi [PC e Android]"
+title: "Como enviar arquivos via Wi-Fi [PC para outRo PC]"
 date: 2019-11-08 03:17
 categories: ['Manutenção']
 authors: ['Pedro Henrique'] 
@@ -12,27 +12,28 @@ image: CAPA.png
   
 
 
-Olá usuario, neste tutorial vamos aprender como fazer troca de arquivos entre computador (Windows 10) para android via Wifi.
+ Olá usuario, neste tutorial vamos aprender como fazer troca de arquivos entre dois computadores **(Windows 10)**.
 
-O processo de enviar arquivos via Wi-Fi difere um pouco dependendo dos dispositivos. Mas, de qualquer forma, é importante que eles estejam na mesma rede sem fio.
+ O processo de enviar arquivos via Wi-Fi difere um pouco dependendo do dispositivo. Mas, de qualquer forma, é importante que eles estejam na mesma rede sem fio.
 
 #  No Windows 10
 
-![Windows10](/42/images/post/Windows10.png)
+ O compartilhamento por proximidade do Windows 10 permite compartilhar documentos, fotos por Wi-Fi.
 
- Entre dois computadores com Windows 10 e na mesma rede, você pode usar o recurso Compartilhamento por Proximidade para trocar arquivos entre eles. 
+ Para usar esse o Compartilhamento por proximidade, ambos os computadores (do qual e para o qual se está compartilhando) devem ter Bluetooth e executar o Windows 10 (versão   1803 ou posterior). 
 
-**Clique em "Compartilhamento por proximidade" e ative o recurso** (o ícone ficará azul).
 
 # Para documentos
 
-**1.** Abra o Explorador de Arquivos e navegue até a pasta onde está o documento que deseja compartilhar;
+**1.** No computador do qual você está compartilhando, na extremidade direita da barra de tarefas, selecione **"central de ações"  > **Compartilhamento por proximidade e verifique se está ativado**. 
 
-**2.** Selecione o arquivo e depois clique na aba **"Compartilhar"**;
+**2.** Realize o mesmo procedimento no computador para o qual você está compartilhando.
 
-**3.** Clique em **"Compartilhar"**;
+**3.** No computador com o documento que você deseja compartilhar, abra o **"Explorador de Arquivos"** e localize o documento do Word a ser compartilhado.
 
-**5.** No computador que irá receber o arquivo irá aparecer uma notificação, clique em **"Salvar"** ou **"Salvar e abrir"**.
+**4.** No Explorador de Arquivos, selecione a guia **"Compartilhar"**, selecione **"Compartilhar"**  e, em seguida, o nome do dispositivo com o qual deseja compartilhar.
+
+**5.** No dispositivo com o qual você está compartilhando, selecione **"Salvar e abrir"** ou **"Salvar"** quando a notificação for exibida.
 
 # Para fotos
 
