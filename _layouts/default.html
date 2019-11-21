@@ -1,20 +1,3 @@
-{% assign rawcats = "" %}
-{% for post in site.posts %}
-{% assign ccats = post.categories | join:'|' | append:'|' %}
-{% assign rawcats = rawcats | append:ccats %}
-{% endfor %}
-{% assign rawcats = rawcats | split:'|' | sort %}
-{% assign cats = "" %}
-{% for cat in rawcats %}
-{% if cat != "" %}
-{% if cats == "" %}
-{% assign cats = cat | split:'|' %}
-{% endif %}
-{% unless cats contains cat %}
-{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
 {% include base_path %}
 
 <!DOCTYPE html>
@@ -46,11 +29,11 @@
             <div class="header__content row">
                 
                 <div class="header__logo">
-                    <a class="logo" href="/">
+                    <a class="logo" href="{{ base_path }}/">
                         <img src="{{ base_path }}/images/logo.svg" alt="Homepage">
                     </a>
                 </div> 
-                                
+                
                 <a class="header__search-trigger" href="#0"></a>
                 
                 <div class="header__search">
@@ -75,13 +58,13 @@
                     <h2 class="header__nav-heading h6">Navegação do Site</h2>
                     
                     <ul class="header__nav">
-                        <li><a href="{{ base_path }}" title="">Início</a></li>
+                        <li><a href="{{ base_path }}/" title="">Início</a></li>
                         <li class="has-children">
                             <a href="#0" title="">Categorias</a>
                             <ul class="sub-menu">
-                                {% for cat in cats %}
-                                <li><a href="{{ base_path }}/category/{{ cat | slugify }}/">{{ cat }}</a></li>
-                                {% endfor %}                            
+                                <li><a href="{{ base_path }}/categoria/automação/">Automação</a></li>
+                                <li><a href="{{ base_path }}/categoria/manutenção/">Manutenção</a></li>
+                                <li><a href="{{ base_path }}/categoria/virtualização/">Virtualização</a></li>                    
                             </ul>
                         </li>                                                
                         <li><a href="{{ base_path }}/sobre.html" title="">Sobre</a></li>                        
@@ -104,7 +87,7 @@
                         <div class="entry" style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[0].image }}');">
                             
                             <div class="entry__content">
-                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[0].categories[0] | slugify }}/">{{ site.posts[0].categories|join: ", "  }}</a></span>
+                                <span class="entry__category"><a href="{{ base_path }}/categoria/{{ site.posts[0].categories[0] | slugify }}/">{{ site.posts[0].categories|join: ", "  }}</a></span>
                                 
                                 <h1><a href="{{ base_path }}{{ site.posts[0].url }}" title="">{{ site.posts[0].title }}</a></h1>
                                 
@@ -130,7 +113,7 @@
                         <div class="entry" style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[i].image }}');">
                             
                             <div class="entry__content">
-                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[i].categories[0] | slugify }}/">{{ site.posts[i].categories|join: ", "  }}</a></span>
+                                <span class="entry__category"><a href="{{ base_path }}/categoria/{{ site.posts[i].categories[0] | slugify }}/">{{ site.posts[i].categories|join: ", "  }}</a></span>
                                 
                                 <h1><a href="{{ base_path }}{{ site.posts[i].url }}" title="">{{ site.posts[i].title }}</a></h1>
                                 
