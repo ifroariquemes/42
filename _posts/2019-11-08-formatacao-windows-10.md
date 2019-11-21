@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial de formatação limpa do Windows 10"
-categories: ['Virtualização']
+categories: ['Manutenção']
 authors: ['Caio H. M. Mera'] 
 tags: []
 description: 'Será feito neste tutorial a formatação desde o boot até a instalação do Windows 10.'
@@ -14,10 +14,10 @@ Geralmente as pessoas associam formatação à algo super difícil, entretando n
 **Lembrete:** antes de formatar o computador, faça o Backup. Feito isso, siga as instruções abaixo.
 
 
-Tutorial:
+### Tutorial
 
 
-**Passo 1** - Primeiramente, devemos entrar na BIOS do computador apertando "F12" na inicialização;
+**Passo 1** - Primeiramente, devemos entrar na BIOS do computador. Verifique no manual do fabricante qual tecla ficar apertando durante a inicialização, mas geralmente é DELETE ou F12;
 
 
 **Passo 1.1** - Aparecerá uma tela semelhante à abaixo;
@@ -173,26 +173,7 @@ Tutorial:
 **Passo 5** - Fim da instalação, aproveite seu Windows 10;
 
 
-![Tela do seu Win 10](/42/images/post/telainicial.jpg)
-
-
-
-
-
-
 
 Agradecimentos: Luiz Alceu Sedlacek Vaz e Rodrigo Veiga Costa Filho.
-
-Referencias: Eu mesmo.
-
-
-
-
-
-
-
-
-
-
 
 
