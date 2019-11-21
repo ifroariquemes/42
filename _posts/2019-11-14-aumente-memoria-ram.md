@@ -12,7 +12,7 @@ Todo mundo deseja um computador com mais memória RAM, para rodar aquele jogo qu
 
 E se você entrou nessa página você deseja aumentar a sua, para isso você precisa comprar e instalar uma memória com maior capacidade e é isso que você vai aprender agora.
 
-Primeiramente você deve ascessar um site de venda de artigos de informática ou procurar uma loja na sua cidade. Deixarei abaixo alguns liks de lojas virtuais que vendem esses produtos. **Não se esqueça de verificar a compatibilidade entre a memória e o resto dos componentes do seu computador**.
+Primeiramente você deve acessar um site de venda de artigos de informática ou procurar uma loja na sua cidade. Deixarei abaixo alguns liks de lojas virtuais que vendem esses produtos. **Não se esqueça de verificar a compatibilidade entre a memória e o resto dos componentes do seu computador**.
 
 [https://www.pichau.com.br/](https://www.pichau.com.br/)
 
@@ -24,7 +24,7 @@ Primeiramente você deve ascessar um site de venda de artigos de informática ou
 
 Com a sua nova memória em mãos você deve a instalar em sua máquina seguindo os passos a seguir.
 
-- Com o seu computador desconectado da tomada abra o gabinete e procurare o encaixe onde a sua memória RAM antiga está instalada.
+- Com o seu computador desconectado da tomada abra o gabinete e procurar o encaixe onde a sua memória RAM antiga está instalada.
 
 - Se houver outro encaixe igual e compativel com a sua memória ram nova, vazio, instale a nova memória ram no slot desocupado.
 
