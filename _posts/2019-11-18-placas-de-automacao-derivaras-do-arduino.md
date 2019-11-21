@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PLACA DE AUTOMAÇÃO DERIVADA DO ARDUINO"
+title: "Placas de Automação derivadas do Arduino"
 categories: ['Automação']
 authors: ['Geovanna Moraes de Paula'] 
 tags: []
@@ -10,16 +10,16 @@ image: Automação.jpg
 
 
 
-**ARDUINO:**
+### Arduino
 
 O Arduino foi lançado em 2005, e desenvolvido para ser uma plataforma de prototipagem eletrônica. O projeto Arduino teve como principal objetivo ser uma plataforma de baixo custo, e que facilite a vida de pessoas que não possuem um conhecimento amplo sobre eletrônica ou programação. 
 A plataforma Arduino é constituída por uma placa de prototipagem eletrônica com um micro controlador programável, no qual pode desempenhar várias funções. O conjunto é composto por Hardware e Software. O micro controlador obtém varias entradas e saídas, para receber e enviar dados para sensores, motores, atuadores, telas, teclados, alto-falantes e milhares de outros dispositivos.
 
-**PLACAS DE AUTOMAÇÃO DERIVADAS DO ARDUINO:**
+### Placas de automação derivadas do Arduino
 
 A plataforma do arduino não possui apenas uma única unidade de micros controladores, sendo assim existem diversos dispositivos compatíveis com o IDE do arduino. Com isso, ressaltam-se algumas placas derivadas do arduino, mais conhecidas como clones, no qual são os produtos que são derivados do projeto de hardware Arduino, porém sempre ocorre uma inovação, que fornece um layout modificado ou apresentando uma melhora para servir um mercado específico.
 
-**EXEMPLOS:**
+### Exemplos
 
 **DIAVOLINO:**
 É uma placa de desenvolvimento compatível com Arduino, de baixo custo e fácil de construir. Diavolino tem o formato de um Arduino Duemilanove ou Arduino Pro, mas com cantos bem arredondados e uma aparência impressionante.
@@ -88,13 +88,13 @@ Com base no Duemilanove, com uma área de prototipagem, LEDs reorganizados, cone
 
 
 
-**REFERÊNCIAS:**
+### Referências
 
-[https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#/media/File:TwentyTen.jpg]
+[https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#/media/File:TwentyTen.jpg](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#/media/File:TwentyTen.jpg)
 
-[https://www.electromaker.io/blog/article/best-arduino-clones] 
+[https://www.electromaker.io/blog/article/best-arduino-clones](https://www.electromaker.io/blog/article/best-arduino-clones) 
 
-[https://multilogica-shop.com/arduinos-originais-e-compat%C3%ADveis] 
+[https://multilogica-shop.com/arduinos-originais-e-compat%C3%ADveis](https://multilogica-shop.com/arduinos-originais-e-compat%C3%ADveis)
 
 
 
