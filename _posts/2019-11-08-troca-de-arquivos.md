@@ -6,7 +6,7 @@ categories: ['Virtualização']
 authors: ['Pedro Henrique'] 
 tags: []
 description: 'Como enviar arquivos de um dispositivo android para um computador com windows ligados a uma mesma rede wifi'
-image: 33128.jpg
+image: images (1).jpeg
 ---
 
   
@@ -18,7 +18,7 @@ O processo de enviar arquivos via Wi-Fi difere um pouco dependendo dos dispositi
 
 #  No Windows 10
 
-![alt text](https://cdn.tecnoblog.net/wp-content/uploads/2019/07/nearby-sharing-windows-10-700x424.jpg "nearby-sharing-windows-10-700x424.jpeg")
+![Windows10](/42/images/post/Windows10.png)
 
  Entre dois computadores com Windows 10 e na mesma rede, você pode usar o recurso Compartilhamento por Proximidade para trocar arquivos entre eles. 
 
@@ -40,7 +40,7 @@ O processo de enviar arquivos via Wi-Fi difere um pouco dependendo dos dispositi
 
 # Para fotos
 
-![alt text](https://cdn.tecnoblog.net/wp-content/uploads/2019/07/pictures-windows-10-sharing-700x544.jpg "pictures-windows-10-sharing-700x544")
+![Virtualpedro](/42/images/post/Virtualpedro.png)
 
 **1.** Abra o aplicativo **"Fotos"**;
 
@@ -54,7 +54,7 @@ O processo de enviar arquivos via Wi-Fi difere um pouco dependendo dos dispositi
 
 O Android dispõe de uma série de meios para enviar arquivos a um computador Windows por Wi-Fi, a grande maioria usando aplicativos. Um dos mais simples é o **File Manager** da Asus, que cria uma ponte entre o celular e o computador.
 
-![alt text](https://cdn.tecnoblog.net/wp-content/uploads/2019/07/asus-file-manager-700x415.jpg "asus-file-manager-700x415")
+![Tela](/42/images/post/Tela.png)
 
 **1.** Acesse [play.google.com]( play.google.com)
  em seu celular Android e instale o File Manager;
@@ -67,7 +67,7 @@ O Android dispõe de uma série de meios para enviar arquivos a um computador Wi
 
 **5.** No computador, abra seu navegador e digite o endereço de IP exibido pelo app;
 
-![alt text](https://cdn.tecnoblog.net/wp-content/uploads/2019/07/asus-file-transfer-windows-10-700x388.jpg "asus-file-transfer-windows-10-700x388")
+![Tela2](/42/images/post/Tela2.png)
 
 **6.** Feito isso, você terá acesso às pastas de seu celular e poderá trocar arquivos entre ele e o PC;
 
