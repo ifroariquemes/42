@@ -5,11 +5,11 @@ categories: ['Automação']
 authors: ['Thiago Estevão Da silva'] 
 tags: ['Fotoelétrico']
 description: 'Isto é um post sobre sensor Fotoelétrico'
-image: couple.jpg
+image: efeito_fotoeletrico.jpg
 ---
 
 ### O que é efeito fotoelétrico? 
-![ft](/42/images/post/foto_no_bular.png)
+![ft](/42/images/post/Foto_no_tubular.png)
  O efeito fotoelétrico é um fenômeno de origem quântica que consiste na emissão de elétrons por algum material que é iluminado por radiações eletromagnéticas de frequências específicas. Os elétrons emitidos por esses materiais são chamados de fotoelétrons.
 
 ### Quem descobriu o efeito fotoelétrico?
