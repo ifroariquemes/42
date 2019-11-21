@@ -4,7 +4,7 @@
   "description": "Site com todas as respostas do universo",
   "main": "index.js",
   "scripts": {
-    "start": "docker run --rm --volume=\"$PWD:/srv/jekyll\" -p 4000:4000 -it jekyll/jekyll jekyll serve"
+    "start": "sudo docker run --rm --volume=\"$PWD:/srv/jekyll\" -p 4000:4000 -it jekyll/jekyll jekyll serve"
   },
   "repository": {
     "type": "git",

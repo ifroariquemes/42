@@ -7,16 +7,15 @@ tags: [sensores, distância]
 description: 'Conceituação e aplicação de sensores capazes de medir a distância utilizando ondas ultrassônicas'
 image: couple.jpg
 ---
-# Sensor ultrassônico - Funcionamento e aplicação
 
 ## Conceituando
 
-1. Os sensores são baseados em duas principais partes para que o seu funcionamento seja realizado. O primeiro deles é o emissor, que tem como propriedade exclusiva a de emitir uma onda de alta frequência (Cerca de 40khz), esta onda emitida segue até o objeto mais próximo, ao colidir com o objeto a onda é refletida e retorna ao sensor ativando o receptor. Este dispositivo é capaz de identificar as ondas que, anteriormente foi lançada pelo emissor, e através de uma expressão matemática definir a distância entre o sensor e o objeto. Esta expressão só é possível pelo fato da velocidade do som no ar já ser conhecida (340 m/s), tendo isso em vista, no momento em que a onda é emitida um relógio de alta precisão cronometra o intervalo de tempo que a onda leva para ir e voltar tornando possível o cálculo da distância.
+Os sensores são baseados em duas principais partes para que o seu funcionamento seja realizado. O primeiro deles é o emissor, que tem como propriedade exclusiva a de emitir uma onda de alta frequência (Cerca de 40khz), esta onda emitida segue até o objeto mais próximo, ao colidir com o objeto a onda é refletida e retorna ao sensor ativando o receptor. Este dispositivo é capaz de identificar as ondas que, anteriormente foi lançada pelo emissor, e através de uma expressão matemática definir a distância entre o sensor e o objeto. Esta expressão só é possível pelo fato da velocidade do som no ar já ser conhecida (340 m/s), tendo isso em vista, no momento em que a onda é emitida um relógio de alta precisão cronometra o intervalo de tempo que a onda leva para ir e voltar tornando possível o cálculo da distância.
 
 
 ### Fórmula do sensor 
 
-2. A fórmula utilizada pelo sensor se dá pela seguinte expressão: d = (V*t)/2
+A fórmula utilizada pelo sensor se dá pela seguinte expressão: d = (V*t)/2
 
 Onde:
 
@@ -47,30 +46,30 @@ Material a ser usado:
 
 ### O código 
 
+```c
  #include < Ultrasonic.h > 
  #define trigger  5 
  #define echo 6 
  
  
- Ultrasonic ultrasonic(trigger, echo); /
+ Ultrasonic ultrasonic(trigger, echo);
  
  void setup()
  {
- Serial.begin(9600);
- Serial.println("lendo os dados..");
+    Serial.begin(9600);
+    Serial.println("lendo os dados..");
  }
  
  void loop()
  {
-
- float cmMsec;
- long microsec = ultrasonic.timing();
- cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
- Serial.print("Distância: ");
- Serial.print(cmMsec);
- delay(500);
+    float cmMsec;
+    long microsec = ultrasonic.timing();
+    cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
+    Serial.print("Distância: ");
+    Serial.print(cmMsec);
+    delay(500);
  }
-
+```
 
 ### Resultado
 
