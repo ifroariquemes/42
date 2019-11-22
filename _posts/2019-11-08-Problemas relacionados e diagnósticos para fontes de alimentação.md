@@ -30,10 +30,9 @@ Causas para esse problema podem ser tanto "naturais", como a descarga de eletric
 
 **"Sobrecarga":** Como já dito, uma fonte de alimentação pode apenas trabalhar em uma faixa de tensão, ou em um intervalo fixo, e uma exceção a essa "faixa" pode causar consequências indesejadas. Além disso, a fonte de alimentação do PC sempre vai tentar trabalhar, por mais que alta ou baixa que seja, com toda a corrente disponível no momento. Correndo assim, o risco de se sobrecarregar "de tanto trabalhar" , e assim, danificar componentes mais sensíveis do micro.
  
+Toda fonte de alimentação de um PC possui uma determindada Potência, medida em Watts, que representa a capacidade da fonte de "puxar a energia" de uma fonte, como uma tomada, e converte-la em determinadas tensões, que atendam as "requisições" energéticas de cada componente. No caso da "sobrecarga", essas "requisições" para os outros componentes acabam excedendo o limite de enrgia possivel para a fonte trabalhar efetivamente.
 
-Uma fonte de alimentação de um PC possui uma Potência, medida em Watts, e representa a capacidade da fonte de "puxar a energia" do fio da tomada.  
-
-
+A principal, e mais frequênte causa, da "sobrecarga" no trabalho da fonte trata de situações em que existam um número muito grande de componentes, internos e externos, do PC a serem alimentados. Outros fatores "naturais" podem estar resumidos ao desgaste, e a perca de eficiência, natural da fonte, ao longo do tempo.
 
 --------------------------------
 
@@ -49,7 +48,7 @@ Quando uma fonte de alimentação apresenta defeito, por vezes a detecção do p
 
 Segue um vídeo-tutorial com as demais instruções sobre como fazer um diagnóstico simples do estado de uma fonte de alimentação.
 
-[!['Tutorial diagnóstico de fontes'](http://img.youtube.com/vi/YKihV4sGXQQ/0.jpg)](http://www.youtube.com/watch?v=YKihV4sGXQQ "")
+[!['Tutorial diagnóstico de fontes'](http://img.youtube.com/vi/YKihV4sGXQQ/0.jpg)](http://www.youtube.com/watch?v=YKihV4sGXQQ)
 
 
 É bom lembrar que **qualquer problema, após diagnosticado, no componente exige o transporte da peça até uma assistência técnica especializada**. Isso porque o manuseio de fontes, ao contrário de outros componentes, não foram muito facilitadas com o tempo, dificultando que uma pessoa sem equipamento correto e técnica as faça.  
