@@ -5,7 +5,7 @@ categories: ['Automação']
 authors: ['Matheus Siqueira'] 
 tags: [Servo Motor, Servo Motor CA, Servo Motor CC, Servo Motor de Passo]
 description: Post sobre o funcionamento de um servo motor e as diferentes formas de encapsulamento, agrupados por faixa de torque. Demonstrar aplicações em que eles se aplicam.
-image: couple.jpg
+image: Servo.jpg
 ---
 
 O Servomotor é uma máquina eletromecânica, que demonstra um movimento proporcional a um comando desejado, logo o mesmo é um atuador rotativo ou linear que garante o controle, velocidade e precisão em aplicações de controle de posição em malha fechada.
@@ -16,7 +16,7 @@ Os servo motores são classificados em CA (corrente alternada) e CC (corrente co
 
 Os servos CA são normalmente divididos em 2 categorias, sendo elas os síncronos e os de indução. Temos ainda um terceiro tipo que por sua vez é mais empregado em aplicações menores que seria o motor de passo.
 
-![Tabela servo motor](/42/images/post/Tabela servo motor.png)
+![TABELA SERVO MOTOR](/42/images/post/TABELA SERVO MOTOR.JPG)
 
 ### Servo Motor de Passo
 
