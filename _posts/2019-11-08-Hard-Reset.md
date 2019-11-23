@@ -5,13 +5,13 @@ categories: ['Manutenção']
 authors: ['Adriel Novais'] 
 tags: []
 description: 'Tutorial de como fazer Hard Reset em Smartphones Samsungs'
-image: couple.jpg
+image: Ima3.png
 ---
 
-#Tutorial de como fazer hard Reset em Smartphones Samsungs#
+# Tutorial de como fazer hard Reset em Smartphones Samsungs
 
 
-##Para Aparelhos que possuem o Botão Home(Botão Central):
+## Para Aparelhos que possuem o Botão Home(Botão Central):
 
 **Para aparelhos com Botão Home(Botão Central).**
 
@@ -24,7 +24,7 @@ robozinho do Android, quando aparecer solte os botões.
 
 Passo 4: Com o botão de diminuir volume desça até a opcão **Wipe data factory reset** e selecione com o botão Power.
 
- ![Imagem](/42/images/post/Ima1.png)
+![Imagem](/42/images/post/Ima2.png)
 
 
 Passo 5: Com o botão de Diminuir Volume desça até a opção **Yes delete all user data** ou **Yes** e selecione com o botão Power.
@@ -33,12 +33,12 @@ Passo 5: Com o botão de Diminuir Volume desça até a opção **Yes delete all 
 
 Passo 6: Selecione a opção **Reboot system now** com o botão Power.
 
- ![Imagem](/42/images/post/Ima1.png)
+![Imagem](/42/images/post/Ima1.png)
 
 E aguarde o aparelho ligar novamente.
 
 
-##Para aparelhos sem Botão Home(Botão Central). 
+## Para aparelhos sem Botão Home(Botão Central). 
 
 Passo 1: Desligue o aparelho.
 
@@ -48,7 +48,7 @@ Passo 3: Continue pressionando o Botão volume para cima até aparecer o robozin
 
 Passo 4: Com o botão de diminuir volume desça até a opcão **Wipe data factory reset** e selecione com o botão Power.
 
-![Imagem](/42/images/post/Ima1.png)
+![Imagem](/42/images/post/Ima2.png)
 
 Passo 5: Com o botão de Diminuir Volume desça até a opção **Yes delete all user data** ou **Yes** e selecione com o botão Power.
 
