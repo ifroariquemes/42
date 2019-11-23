@@ -26,7 +26,7 @@ A utilização do Pirajuba em missões científicas em águas rasas deve ter in�
 Em formato de torpedo, o Pirajuba tem 1,78 metro de comprimento, 23 centímetros de diâmetro e pode atingir a velocidade aproximada de 10 quilômetros por hora (km/h). “O AUV possui energia e capacidade de processamento, com computadores de bordo acoplados. Assim, não depende da assistência humana durante suas missões”, explicou o engenheiro. Seu sistema de energia baseia-se em um banco de baterias de polímero de lítio, que oferecem altas densidades relativas de energia e a possibilidade de serem moldadas de acordo com a geometria do casco do robô.
 
 
-![Submarino Pirajuba][leticia1.jpeg]
+![Submarino Pirajuba][/42/images/post/leticia1.jpeg]
 
 
 Segundo o pesquisador, as melhorias alcançadas nessa terceira versão do Pirajuba referem-se à concepção mecânica de seus componentes principais, como casco, sistema de propulsão e manobra e estrutura interna do vaso principal. “Esta versão está muito mais operacional que as anteriores, beirando a de um protótipo comercial”, comentou. “O sistema de vedação e proteção catódica dos vasos está validado, a manipulação dos componentes do veículo e sua manutenção foram facilitadas, o sistema de flutuação está integrado ao casco conforme o projeto assistido por computador, o sistema de manobra é mais preciso e os programas de controle embarcado e interface com a base de comando estão mais refinados e de fácil utilização”, explicou.
@@ -74,7 +74,7 @@ A sua propulsão utiliza a energia das ondas oceânicas e o controle da sua cine
 
 Dados de monitoramento do ruído acústico submarino, seja de natureza biológica ou gerado por plataformas e navios, ainda são escassos no Brasil. Essa escassez pode ser atribuída à dificuldade de se manter equipamentos, com sensores apropriados, monitorando, em tempo real, uma grande área por um longo período de tempo.
 
-![Submarino Wave Glider][leticia2.jpeg]
+![Submarino Wave Glider][/42/images/post/leticia2.jpeg]
 
 ----------------------------------
 REFERÊNCIAS:

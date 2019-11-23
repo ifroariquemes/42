@@ -18,7 +18,7 @@ Assim como grandes empresas investem no desenvolvimento de carros elétricos aut
 
 * Se quisermos algo capaz de transportar passageiros, podemos olhar para o projeto da BAE Systems, companhia especializada em tecnologia aeronáutica: a empresa vem testando há alguns anos um Jetstream 31 — um bimotor de pequeno porte para até 16 passageiros — modificado para ser pilotado por um sistema autônomo.
 
-![Jetstream 31 da BAE Systems][fabio.jfif]
+![Jetstream 31 da BAE Systems][/42/images/post/fabio.jfif]
 
 * Há um piloto automático sendo desenvolvido pela Aurora Flight Sciences que é diferente do convencional: o sistema utiliza câmera, inteligência artificial, reconhecimento de voz, braço mecânico e outros recursos para pilotar um avião como se fosse um humano. Estamos efetivamente falando de um robô. O projeto do Alias (Aircrew Labor In-Cockpit Automation System), como é chamado, começou como parte de um programa da Darpa (agência de pesquisa ligada ao exército dos Estados Unidos) e visa criar uma tecnologia capaz de transformar qualquer avião em autônomo.
 
@@ -55,7 +55,7 @@ A companhia, conhecida como Kitty Hawk e administrada por Sebastian Thrun, que a
 
 A decisão de adotar o uso comercial de táxis aéreos oferece para a Nova Zelândia uma oportunidade de ultrapassar vários países desenvolvidos nessa área, e talvez ter uma vantagem sobre o Vale do Silício, onde a maior parte do trabalho inovador vem acontecendo.
 
-![AERONAVE DA KITTY HAWKE: ela pode voar por cerca de 100 quilômetros e carregar dois passageiros / Thomas Heinser, via Kitty Hawk via The New York Times][airbone.jpeg]
+![AERONAVE DA KITTY HAWKE: ela pode voar por cerca de 100 quilômetros e carregar dois passageiros / Thomas Heinser, via Kitty Hawk via The New York Times][/42/images/post/airbone.jpeg]
 
 -------------------------------------
 REFERÊNCIAS
