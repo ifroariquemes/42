@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Diagnóstico de Memória RAM"
-categories: ['Virtualização']
+categories: ['Manutenção']
 authors: ['Nalbert Mancini de Andrade'] 
 tags: []
-description: 'Isto é um modelo de post que você deve seguir para contribuir com o projeto'
+description: 'Descubra se sua memória está com defeito com o MemTest86'
 image: board-22098_1280(1).jpg
 ---
 ### Apresentação
@@ -30,7 +30,9 @@ ___
 
 Na interface do MemTest86 V4 há vários componentes relacionado ao seu computador e, principalmente, a sua memória RAM. Entre eles há informações sobre cada memória em cada slot no computador, como modelo e tipo, no campo “Memory SPD informations “. No primeiro campo superior direito há informações de sua memória, como tamanho e velocidade da memória cache e da memória como um todo. Ao lado Direito há informações do processo da atividade e informações de seu computador, como o tipo de seu processador e velocidade, há informações de porcentagem da atividade, qual teste está sendo executado, eles são numerados a partir de 1, a parte da memória que está sendo testada e o tempo de execução. Abaixo há uma carreira de campos, do lado esquerdo para o lado direito, no primeiro mostra informações de seu processador, como a numeração de cada um, a partir do 0, os estaus, quantos cores está sendo utilizado do total, e temperatura. No segundo há informações de sua memória, como tamanho, velocidade, tipo, modelo, a quantidade de erros e a quantidade de testes completos.
 
-   Para o entendimento do programa é necessário da leitura do manual que vem incluso na iso baixada. Sobre o relatório de erros, ao final de cada teste finalizado é criado um código em HTML no disco, que, posteriormente, é possível abri-lo e visualizar o relatório de erro. Entre os erros há:
+![memtest](/42/images/post/memtest.png)
+
+Para o entendimento do programa é necessário da leitura do manual que vem incluso na iso baixada. Sobre o relatório de erros, ao final de cada teste finalizado é criado um código em HTML no disco, que, posteriormente, é possível abri-lo e visualizar o relatório de erro. Entre os erros há:
 
 ###### Menor erro de endereço:
 
