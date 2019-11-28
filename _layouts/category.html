@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include base_path %}
 
 <section class="s-content" id="posts">    
     
@@ -21,9 +22,8 @@ layout: default
             <article class="masonry__brick entry format-standard" data-aos="fade-up">
                 
                 <div class="entry__thumb">
-                    <a href="{{ post.url }}" class="entry__thumb-link">
-                        <img src="{{ post.image }}" 
-                        srcset="{{ post.image }} 1x, {{ post.image }} 2x" alt="{{ post.title }}">
+                    <a href="{{ base_path }}{{ post.url }}" class="entry__thumb-link">
+                        <img src="{{ base_path }}/images/thumbs/{{ post.image }}" alt="{{ post.title }}">
                     </a>
                 </div>
                 
@@ -31,27 +31,20 @@ layout: default
                     <div class="entry__header">
                         
                         <div class="entry__date">
-                            <a href="{{ post.url }}">
+                            <a href="{{ base_path }}{{ post.url }}">
                                 {% capture post_month %}{{ post.date|date:"%-m" }}{% endcapture %}
                                 {{ post.date | date: "%d de" }}
                                 {% include month.md m=post_month %}
                                 {{ post.date | date: " de %Y" }}
                             </a>
                         </div>
-                        <h1 class="entry__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                        <h1 class="entry__title"><a href="{{ base_path}}{{ post.url }}">{{ post.title }}</a></h1>
                         
                     </div>
                     <div class="entry__excerpt">
                         <p>
                             {{ post.description }}
                         </p>
-                    </div>
-                    <div class="entry__meta">
-                        <span class="entry__meta-links">
-                            {% for cat in post.categories %}
-                            <a href="/category/{{ cat | slugify }}/">{{ cat }}</a> 
-                            {% endfor %}                            
-                        </span>
                     </div>
                 </div>
                 

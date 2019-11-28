@@ -2,61 +2,66 @@
 
 <!DOCTYPE html>
 <html class="no-js" lang="pt-BR">
-<head>    
+
+<head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{page.title}}{% else %}42{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="{% if page.authors.size > 0 %}{{ author | join: ', ' }}{% endif %}">                
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">        
-    <meta property="og:url"           content="{{ base_path }}{{ page.url }}">
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="{% if page.title %}{{page.title}}{% else %}42{% endif %}" />
-    <meta property="og:description"   content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image"         content="{% if page.image %}{{ base_path }}{{ page.image }}{% else %}{% endif %}" />
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="{% if page.authors.size > 0 %}{{ author | join: ', ' }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:url" content="{{ base_path }}{{ page.url }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}42{% endif %}" />
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.image %}{{ base_path }}{{ page.image }}{% else %}{% endif %}" />
     <link rel="stylesheet" href="{{ base_path }}/css/base.css">
     <link rel="stylesheet" href="{{ base_path }}/css/vendor.css">
-    <link rel="stylesheet" href="{{ base_path }}/css/main.css">          
+    <link rel="stylesheet" href="{{ base_path }}/css/main.css">
+    <link rel="stylesheet" href="{{ base_path }}/css/42.css">
     <script src="{{ base_path }}/js/modernizr.js"></script>
     <script src="{{ base_path }}/js/pace.min.js"></script>
     <link rel="shortcut icon" href="{{ base_path }}/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{ base_path }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ base_path }}/favicon.ico" type="image/x-icon">    
 </head>
 
 <body id="top">
-    
-    <section class="s-pageheader {% if page.name == 'index.html' %}s-pageheader--home{% endif %}">        
+
+    <section class="s-pageheader {% if page.name == 'index.html' %}s-pageheader--home{% endif %}">
         <header class="header">
             <div class="header__content row">
-                
+
                 <div class="header__logo">
                     <a class="logo" href="{{ base_path }}/">
-                        <img src="{{ base_path }}/images/logo.svg" alt="Homepage">
+                        <img src="{{ base_path }}/images/logo.png" alt="Homepage">
                     </a>
-                </div> 
-                
+                </div>
+
                 <a class="header__search-trigger" href="#0"></a>
-                
+
                 <div class="header__search">
-                    
+
                     <form role="search" method="get" class="header__search-form" action="{{ base_path }}/search.html">
                         <label>
                             <span class="hide-content">Buscar por:</span>
-                            <input type="search" class="search-field" placeholder="Digite os termos que está procurando" value="" name="q" title="Buscar por:" autocomplete="off" required>
+                            <input type="search" class="search-field" placeholder="Digite os termos que está procurando"
+                                value="" name="q" title="Buscar por:" autocomplete="off" required>
                         </label>
                         <input type="submit" class="search-submit" value="Buscar">
                     </form>
-                    
+
                     <a href="#0" title="Fechar busca" class="header__overlay-close">Fechar</a>
-                    
-                </div> 
-                
-                
+
+                </div>
+
+
                 <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
-                
+
                 <nav class="header__nav-wrap">
-                    
+
                     <h2 class="header__nav-heading h6">Navegação do Site</h2>
-                    
+
                     <ul class="header__nav">
                         <li><a href="{{ base_path }}/" title="">Início</a></li>
                         <li class="has-children">
@@ -64,36 +69,41 @@
                             <ul class="sub-menu">
                                 <li><a href="{{ base_path }}/categoria/automacao/">Automação</a></li>
                                 <li><a href="{{ base_path }}/categoria/manutencao/">Manutenção</a></li>
-                                <li><a href="{{ base_path }}/categoria/virtualizacao/">Virtualização</a></li>                    
+                                <li><a href="{{ base_path }}/categoria/virtualizacao/">Virtualização</a></li>
                             </ul>
-                        </li>                                                
-                        <li><a href="{{ base_path }}/sobre.html" title="">Sobre</a></li>                        
+                        </li>
+                        <li><a href="{{ base_path }}/sobre.html" title="">Sobre</a></li>
                     </ul>
-                    
+
                     <a href="#0" title="Fechar Menu" class="header__overlay-close close-mobile-menu">Fechar</a>
-                    
-                </nav> 
-                
-            </div> 
-        </header> 
-        
+
+                </nav>
+
+            </div>
+        </header>
+
         {% if page.name == "index.html" %}
         <div class="pageheader-content row">
             <div class="col-full">
-                
+
                 <div class="featured">
-                    
-                    <div class="featured__column featured__column--big">                        
-                        <div class="entry" style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[0].image }}');">
-                            
+
+                    <div class="featured__column featured__column--big">
+                        <div class="entry"
+                            style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[0].image }}');">
+
                             <div class="entry__content">
-                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[0].categories[0] | slugify }}/">{{ site.posts[0].categories|join: ", "  }}</a></span>
-                                
-                                <h1><a href="{{ base_path }}{{ site.posts[0].url }}" title="">{{ site.posts[0].title }}</a></h1>
-                                
-                                <div class="entry__info">                                    
+                                <span class="entry__category"><a
+                                        href="{{ base_path }}/categoria/{{ site.posts[0].categories[0] | slugify | replace: 'çã', 'ca' }}/">{{ site.posts[0].categories|join: ", "  }}</a></span>
+
+                                <h1><a href="{{ base_path }}{{ site.posts[0].url }}"
+                                        title="">{{ site.posts[0].title }}</a></h1>
+
+                                <div class="entry__info">
                                     <ul class="entry__meta">
-                                        <li><a href="{{ base_path }}{{ site.posts[0].url }}">{{ site.posts[0].authors | join: ", " }}</a></li>                                        
+                                        <li><a
+                                                href="{{ base_path }}{{ site.posts[0].url }}">{{ site.posts[0].authors | join: ", " }}</a>
+                                        </li>
                                         <li>
                                             {% capture post_month %}{{ site.posts[0].date|date:"%-m" }}{% endcapture %}
                                             {{ site.posts[0].date | date: "%d de" }}
@@ -103,23 +113,28 @@
                                     </ul>
                                 </div>
                             </div> <!-- end entry__content -->
-                            
+
                         </div> <!-- end entry -->
                     </div> <!-- end featured__big -->
-                    
+
                     <div class="featured__column featured__column--small">
-                        
+
                         {% for i in (1..2) %}
-                        <div class="entry" style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[i].image }}');">
-                            
+                        <div class="entry"
+                            style="background-image:url('{{ base_path }}/images/thumbs/{{ site.posts[i].image }}');">
+
                             <div class="entry__content">
-                                <span class="entry__category"><a href="{{ base_path }}/category/{{ site.posts[i].categories[0] | slugify }}/">{{ site.posts[i].categories|join: ", "  }}</a></span>
-                                
-                                <h1><a href="{{ base_path }}{{ site.posts[i].url }}" title="">{{ site.posts[i].title }}</a></h1>
-                                
-                                <div class="entry__info">                                    
+                                <span class="entry__category"><a
+                                        href="{{ base_path }}/categoria/{{ site.posts[i].categories[0] | slugify | replace: 'çã', 'ca' }}/">{{ site.posts[i].categories|join: ", "  }}</a></span>
+
+                                <h1><a href="{{ base_path }}{{ site.posts[i].url }}"
+                                        title="">{{ site.posts[i].title }}</a></h1>
+
+                                <div class="entry__info">
                                     <ul class="entry__meta">
-                                        <li><a href="{{ base_path }}{{ site.posts[i].url }}">{{ site.posts[i].authors | join: ', ' }}</a></li>                                        
+                                        <li><a
+                                                href="{{ base_path }}{{ site.posts[i].url }}">{{ site.posts[i].authors | join: ', ' }}</a>
+                                        </li>
                                         <li>
                                             {% capture post_month %}{{ site.posts[i].date|date:"%-m" }}{% endcapture %}
                                             {{ site.posts[i].date | date: "%d de" }}
@@ -129,40 +144,40 @@
                                     </ul>
                                 </div>
                             </div> <!-- end entry__content -->
-                            
+
                         </div> <!-- end entry -->
                         {% endfor %}
-                        
+
                     </div> <!-- end featured__small -->
                 </div> <!-- end featured -->
-                
+
             </div> <!-- end col-full -->
         </div> <!-- end pageheader-content row -->
         {% endif %}
-        
+
     </section> <!-- end s-pageheader -->
-    
+
     {{ content }}
-    
-    <footer class="s-footer">                
-        
+
+    <footer class="s-footer">
+
         <div class="s-footer__bottom">
             <div class="row">
                 <div class="col-full">
                     <div class="s-footer__copyright">
-                        <span>© Copyright 42</span> 
+                        <span>© Copyright 42</span>
                         <span>Template de <a href="https://colorlib.com/">Colorlib</a></span>
                     </div>
-                    
+
                     <div class="go-top">
                         <a class="smoothscroll" title="Back to Top" href="#top"></a>
                     </div>
                 </div>
             </div>
         </div> <!-- end s-footer__bottom -->
-        
+
     </footer> <!-- end s-footer -->
-    
+
     <div id="preloader">
         <div id="loader">
             <div class="line-scale">
@@ -174,7 +189,7 @@
             </div>
         </div>
     </div>
-    
+
     <script src="{{ base_path }}/js/jquery-3.2.1.min.js"></script>
     <script src="{{ base_path }}/js/plugins.js"></script>
     <script src="{{ base_path }}/js/main.js"></script>
@@ -182,13 +197,14 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151855954-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        
+
         gtag('config', 'UA-151855954-1');
     </script>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0&appId=550359575529189&autoLogAppEvents=1"></script>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0&appId=550359575529189&autoLogAppEvents=1"></script>
 </body>
 
 </html>

@@ -4228,3 +4228,8 @@ footer h4::after {
 .s-content__post-thumb {
    text-align: center;
 }
+
+.s-content__main img{
+   display:block;
+  margin: 0 auto;
+}
