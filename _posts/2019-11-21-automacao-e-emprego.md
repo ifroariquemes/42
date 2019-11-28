@@ -5,7 +5,7 @@ categories: ['Automação']
 authors: ['Pedro Lucas Kloos Candioto']
 tags: ['Automação', 'Emprego', 'Ameaça']
 description: 'Saiba como a automação irá mudar o futuro dos empregos'
-image: 'automaçao1.jpg'
+image: 'automacao1.jpg'
 ---
 
 ### O que é automação do trabalho?
