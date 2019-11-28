@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Uso do Gerenciador de Tarefas para Usuários Comuns"
+title: "Uso do Gerenciador de Tarefas"
 categories: ['Manutenção']
 authors: ['Renato Lopes'] 
 tags: ['Gerenciador de Tarefas', 'Windows tarefas', 'task maneger']
-description: 'Uso e ajustes do gerenciador de tarefas'
+description: 'Aprenda a utilizar os recursos deste programa poderoso do Windows'
 image: logo.png
 ---
 # Abrir o gerenciador de tarefas
