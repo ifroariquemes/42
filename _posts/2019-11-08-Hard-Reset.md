@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hard Reset - Aparelhos Samsung"
+title: "Hard Reset em aparelhos Samsung"
 categories: ['Manutenção']
 authors: ['Adriel Novais'] 
 tags: []
@@ -8,12 +8,7 @@ description: 'Tutorial de como fazer Hard Reset em Smartphones Samsungs'
 image: Ima3.png
 ---
 
-# Tutorial de como fazer hard Reset em Smartphones Samsungs
-
-
 ## Para Aparelhos que possuem o Botão Home(Botão Central):
-
-**Para aparelhos com Botão Home(Botão Central).**
 
 Passo 1: Desligue o aparelho.
 
