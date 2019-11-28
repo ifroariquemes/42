@@ -34,8 +34,6 @@ Toda fonte de alimentação de um PC possui uma determindada Potência, medida e
 
 A principal, e mais frequênte causa, da "sobrecarga" no trabalho da fonte trata de situações em que existam um número muito grande de componentes, internos e externos, do PC a serem alimentados. Outros fatores "naturais" podem estar resumidos ao desgaste, e a perca de eficiência, natural da fonte, ao longo do tempo.
 
---------------------------------
-
 Em ambos os casos listados acima, as consequências podem ir desde simples desligamentos repentinos até a queima do componente, com possibilidade de eventos prejudiciais aos outros componentes do PC.
 
 Os dois principais tipos de problemas apresentados podem vir a ser discutidos novamente em outro artigo sobre, relacionado a prevenção e solução.
@@ -48,9 +46,8 @@ Quando uma fonte de alimentação apresenta defeito, por vezes a detecção do p
 
 Segue um vídeo-tutorial com as demais instruções sobre como fazer um diagnóstico simples do estado de uma fonte de alimentação.
 
-[!['Tutorial diagnóstico de fontes'](http://img.youtube.com/vi/YKihV4sGXQQ/0.jpg)](http://www.youtube.com/watch?v=YKihV4sGXQQ)
-
+<div style="width: 560px; margin: 0 auto">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YKihV4sGXQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 É bom lembrar que **qualquer problema, após diagnosticado, no componente exige o transporte da peça até uma assistência técnica especializada**. Isso porque o manuseio de fontes, ao contrário de outros componentes, não foram muito facilitadas com o tempo, dificultando que uma pessoa sem equipamento correto e técnica as faça.  
-
-
