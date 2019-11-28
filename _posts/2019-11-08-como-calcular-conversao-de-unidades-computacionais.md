@@ -22,7 +22,7 @@ Para converter as grandezas computacionais, basta observar a tabela abaixo:
 
 |**Medida**     |**Sigla**|**Base**|     **Caracteres**               |**Equivalência**|
 |:-------------:|:------: |:-----: |:---------------------------------:|:-------------:|
-| Byte          |         | 2^0    | 1 (8 bits)                        | 1 byte        |
+| Byte          | B       | 2^0    | 1 (8 bits)                        | 1 byte        |
 | KiloByte      | KB      | 2^10   | 1.024                             | 1.024 bytes   |
 | MegaByte      | MB      | 2^20   | 1.048.576                         | 1.024 KByte   |
 | GigaByte      | GB      | 2^30   | 1.073.741.824                     | 1.024 MBytes  |
