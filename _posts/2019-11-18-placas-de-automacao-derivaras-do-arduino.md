@@ -5,7 +5,7 @@ categories: ['Automação']
 authors: ['Geovanna Moraes de Paula'] 
 tags: []
 description: 'Post dedicado para a exposição de placas derivadas do Arduino'
-image: Automação.jpg
+image: Automacao.jpg
 ---
 
 

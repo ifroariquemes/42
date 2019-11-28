@@ -3,14 +3,15 @@ layout: default
 ---
 {% include base_path %}
 
-<section class="s-content" id="posts">        
+<section class="s-content" id="posts">
     
     <div class="row masonry-wrap">
         <div class="masonry">
             
             <div class="grid-sizer"></div>
             
-            {% for post in paginator.posts offset:3 %}
+            {% for post in paginator.posts %}
+            {% unless page.url == '/' and forloop.index <= 3 %}            
             <article class="masonry__brick entry format-standard" data-aos="fade-up">
                 
                 <div class="entry__thumb">
@@ -41,14 +42,15 @@ layout: default
                     <div class="entry__meta">
                         <span class="entry__meta-links">
                             {% for cat in post.categories %}
-                            <a href="/categoria/{{ cat | slugify }}/">{{ cat }}</a> 
-                            {% endfor %}                            
+                            <a href="/categoria/{{ cat | slugify | replace: 'çã', 'ca' }}/">{{ cat }}</a>
+                            {% endfor %}
                         </span>
                     </div>
                 </div>
                 
             </article> <!-- end article -->
-            {% endfor %}                       
+            {% endunless %}
+            {% endfor %}
             
         </div> <!-- end masonry -->
     </div> <!-- end masonry-wrap -->
@@ -58,19 +60,26 @@ layout: default
         <div class="col-full">
             <nav class="pgn">
                 <ul>
-                    <li><a class="pgn__prev" href="{% if paginator.previous_page %}{{ paginator.previous_page_path }}{% else %}#{% endif %}">Prev</a></li>
+                    <li><a class="pgn__prev"
+                        href="{% if paginator.previous_page %}{{ base_path }}{{ paginator.previous_page_path }}{% else %}#{% endif %}">Prev</a>
+                    </li>
                     {% for page in (1..paginator.total_pages) %}
                     {% if page == 1 %}
-                    <li><a class="pgn__num {% if page == paginator.page %}current{% endif %}" href="/#posts">{{ page }}</a></li>
-                    {% else %}
-                    <li><a class="pgn__num {% if page == paginator.page %}current{% endif %}" href="{{ site.paginate_path | relative_url | replace: ':num', page }}#posts">{{ page }}</a></li>
-                    {% endif %}
-                    {% endfor %}                    
-                    <li><a class="pgn__next" href="{% if paginator.next_page %}{{ paginator.next_page_path }}{% else %}#{% endif %}">Next</a></li>
-                </ul>
-            </nav>
+                    <li><a class="pgn__num {% if page == paginator.page %}current{% endif %}"
+                        href="{{ base_path }}/#posts">{{ page }}</a></li>
+                        {% else %}
+                        <li><a class="pgn__num {% if page == paginator.page %}current{% endif %}"
+                            href="{{ site.paginate_path | relative_url | replace: ':num', page }}#posts">{{ page }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                        <li><a class="pgn__next"
+                            href="{% if paginator.next_page %}{{ base_path}}{{ paginator.next_page_path }}#posts{% else %}#{% endif %}">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
-    {% endif %}
-    
-</section> <!-- s-content -->
+        {% endif %}
+        
+    </section> <!-- s-content -->
