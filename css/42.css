@@ -1,3 +1,8 @@
+.header__logo img {
+    width: auto !important;
+    height: 48px !important;
+}
+
 .s-pageheader--home {
     padding-top: 175px;
 }
