@@ -29,11 +29,9 @@ Olá, usuários. Caso tenha se esquecido de sua senha do Windows 10 ou queria al
 ![Conta de Usuários](/42/images/post/redsenha.jpeg)
 
 **Passo 06:** Defina uma nova senha e confirme. Para que não se esqueça, defina uma dica de senha: 
-![Alterar senha](/42/images/novasenha.jpeg)
+![Alterar senha](/42/images/post/novasenha.jpeg)
 
-
-       **Obs:** Outra forma de alterar a senha é pelo comando Ctrl+Alt+Del.
-
+**Obs:** Outra forma de alterar a senha é pelo comando Ctrl+Alt+Del.
 
 **Passo 01:** De o comando Ctrl+Alt+Del no seu teclado: 
 
