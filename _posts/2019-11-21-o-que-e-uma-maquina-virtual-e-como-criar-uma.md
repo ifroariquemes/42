@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O que é uma máquina virtual e como criar uma maquina virtual"
+title: "O que é uma máquina virtual e como criar a sua"
 categories: ['Virtualização']
 authors: ['Yasmim Vitória Reis Gomes'] 
 tags: ['Máquina Virtual', 'Windows 10', 'VirtualBox']
@@ -22,8 +22,8 @@ Uma Máquina Virtual é viável para a realização de testes de novos aplicativ
 
 ### **Programas gratuitos e pagos para a criação de uma máquina virtual:**
 
-   **Gratuitos : VirtualBox, Proxmox, XCP-ng, oVirt, Hyper-V, Virtual PC (Windows), QEMU (Linux).
-   **Pagos : VMWARE Workstation. 
+   - **Gratuitos**: VirtualBox, Proxmox, XCP-ng, oVirt, Hyper-V, Virtual PC (Windows), QEMU (Linux).
+   - **Pagos**: VMWARE Workstation. 
 
 
 ## **Como criar uma Máquina Virtual utilizando o VirtualBox.**     
