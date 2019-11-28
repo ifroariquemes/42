@@ -3,7 +3,7 @@ layout: post
 title: "Aviões autônomos, perspectivas para o futuro"
 categories: ['Automação']
 authors: ['Fábio Galvão'] 
-tags: ['Aviação','Automação','Futuro'.]
+tags: ['Aviação','Automação','Futuro']
 description: 'Post sobre aviões autônomos'
 image: fabio.jfif
 ---

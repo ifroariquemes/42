@@ -3,7 +3,7 @@ layout: post
 title: "Sensores de temperatura: PTC e NTC"
 categories: ['Automação']
 authors: ['Sabrina Jheniffer'] 
-tags: ['Automação','Temperatura','Sensor'.]
+tags: ['Automação','Temperatura','Sensor']
 description: 'Conheça os sensores de temperatura PTC e NTC'
 image: temperatura.jfif
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Monitoramento de ambientes aquáticos com submarinos autônomos"
 categories: ['Automação']
 authors: ['Leticia Amantino Maciel'] 
-tags: ['Automação','Submarino','Oceano'.]
+tags: ['Automação','Submarino','Oceano']
 description: 'Este post apresentará alguns submarinos autônomos desenvolvidos no Brasil, para o monitoramento de ambientes aquáticos.'
 image: leticia.jpeg
 ---

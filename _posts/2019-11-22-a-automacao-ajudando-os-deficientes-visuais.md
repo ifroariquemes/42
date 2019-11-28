@@ -3,7 +3,7 @@ layout: post
 title: "A automação ajudando os deficientes visuais"
 categories: ['Automação']
 authors: ['Jocássia Dolci'] 
-tags: ['Automação','Acessibilidade','Cinto'.]
+tags: ['Automação','Acessibilidade','Cinto']
 description: 'O presente post apresentará dispostivos desenvolvidos para auxíliar deficientes visuais'
 image: aut.jpg
 ---

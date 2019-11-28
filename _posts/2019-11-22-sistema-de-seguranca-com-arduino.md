@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Sistema de segurança com arduino"
+title: "Sistema de segurança residencial com Arduino"
 categories: ['Automação']
 authors: ['Elizeu Batiliere'] 
-tags: ['Automação','Residência','Segurança'.]
-description: 'Post para apresentar alguns projetos que objetivam a construção de um sistema de segurança com arduino'
+tags: ['Automação','Residência','Segurança']
+description: 'Post para apresentar alguns projetos que objetivam a construção de um sistema de segurança com Arduino'
 image: seguranca.png
 ---
 
-## Sistema de segurança residencial com arduino##
+## Sistema de segurança residencial com Arduino
 
 Quando falamos de segurança, falamos também de tecnologia. A segurança está em pauta, principalmente no Brasil. Mesmo que assegurada pela Declaração Universal dos Direitos Humanos, o direito básico de segurança pública de qualidade ainda não é praticado no Brasil.
 
