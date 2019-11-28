@@ -24,10 +24,6 @@ O diferencial do NTC é ser muito mais sensível a variações de temperatura, c
 
 São fabricados a partir da mistura de óxidos de metais de transição, manganês, cobre, cobalto e níquel, apresentam variação de resistência ôhmica em relação a temperatura submetida e fabricados a partir de um elemento resistor termicamente sensível que possui um coeficiente negativo.
 
-
-
-#### Projetos utilizando sensor de Temperatura NTC:
-
 #### Medindo a temperatura ambiente com Termistor NTC
 
 Serão necessários os seguintes itens:
@@ -40,13 +36,13 @@ Serão necessários os seguintes itens:
 
 O circuito eletrônico pode ser visto logo abaixo:
 
-![Esquema de montagem do Termistor NTC 10k com Arduino Uno, imagem disponibilizada no site Vida de Silício][/42/images/post/sabrina.jpeg]
+![Esquema de montagem do Termistor NTC 10k com Arduino Uno, imagem disponibilizada no site Vida de Silício](/42/images/post/sabrina.jpg)
 
 #### Resultado prático
 
-![Circuito montado em protoboard, imagem disponibilizada no site Vida de Silício][/42/images/post/sabrina2.jpeg]
+![Circuito montado em protoboard, imagem disponibilizada no site Vida de Silício](/42/images/post/sabrina2.jpg)
 
-![Print screen do monitor serial, disponibilizado no site Vida de Silício][/42/images/post/sabrina3.jpeg]
+![Print screen do monitor serial, disponibilizado no site Vida de Silício](/42/images/post/sabrina3.jpg)
 
 ### Sensor de temperatura PTC:
 
@@ -56,7 +52,7 @@ A variação da resistência é maior que a de um NTC, na mesma faixa e sua util
 
 Os Sensores PTC são compostos de silício e são ideais para aplicações onde é desejada ótima estabilidade térmica, durabilidade e rápida resposta. Possuem o coeficiente positivo de temperatura de resistência com precisão de 1% a 3% podendo ser utilizado para medições de temperaturas ate 150°C.
 
-![Ecotron Componentes: Sensor de temperatura PTC][/42/images/post/ptc.jpeg]
+![Ecotron Componentes: Sensor de temperatura PTC](/42/images/post/ptc.jfif)
 
 ------------------------------------
 Referências:
