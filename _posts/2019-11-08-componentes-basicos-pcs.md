@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Como montar o PC dos sonhos"
+title: "Componentes básicos de um computador"
 categories: ['Manutenção']
 authors: ['Rodrigo Veiga Costa Filho'] 
-tags: [Gamer]
-description: 'Esse post visa ensinar as pessoas a aprenderem a montar computadores'
+tags: []
+description: 'Sem eles seu PC não vai nem ligar!'
 image: PC.png
 ---
 A tecnologia avança dia após dia e muitas pessoas não sabem como comprar peças para um computador e acabam por comprar um computador ultrapassado com o preço muito alto, por isso esse post ira lhe ensinar o basico de como selecionar as peças certas e não ter dor de cabeça.
