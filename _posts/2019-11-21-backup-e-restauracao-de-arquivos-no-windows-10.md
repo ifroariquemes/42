@@ -7,11 +7,10 @@ tags: [Backup, Restauração de Arquivos, Windows 10]
 description: 'Tutorial de como fazer um Backup e Restauração de Arquivos no Windows 10'
 image: Backup.png
 ---
-## **“Backup e restauração de arquivos no windows 10”**
 
 #### **Introdução:** 
 
-Este tutoria ira explicar o passo à passo de como fazer um Backup e Restauração de Arquivos no Windows 10.
+Este tutorial irá explicar o passo a passo de como fazer um Backup e Restauração de Arquivos no Windows 10.
 
 *Backup* seria uma cópia de segurança, onde é muito utilizado por empresas e pessoas que guardam documentos, imagens, vídeos e outros arquivos no computador ou na nuvem, hospedados em redes online como Dropbox e Google Drive; já uma *Restauração de Arquivos* é o processo de recuperação e tratamento dos dados contidos em mídias de armazenamento secundário danificadas, falhadas, corrompidas ou inacessíveis quando ela não pode ser acessada normalmente e o *Windows 10* é um sistema operacional da Microsoft.
 
@@ -54,8 +53,6 @@ Este tutoria ira explicar o passo à passo de como fazer um Backup e Restauraç�
 **3° Etapa:** Em Sistema e Manutenção clique em **“Recuperação”** , selecione **“Restaurar meus arquivos”** e siga as etapas do assistente;
 
 ![im9](/42/images/post/im9.png)
-
-## **FIM!**
 
 
 
